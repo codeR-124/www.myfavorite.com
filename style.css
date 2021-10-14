@@ -1,0 +1,53 @@
+body{
+    background-color:almond;
+    text-align:center;
+    font-family:monospace;
+    background-color:gray;
+  }
+  
+  .line{
+    background-color:black;
+    height:10px;
+    width:100px;
+    margin:8px auto;
+  }
+  
+  #album{
+    width: 150px;
+      margin-bottom: 50px;
+      border-radius: 25%;
+  }
+  
+  #information{
+      padding: 50px;
+      text-align:center;
+      font-family: monospace;
+      font-size: 20;
+  }
+  
+  .line{
+      height: 6px;
+      background-color: gray;
+      width: 70px;
+      margin: 8px auto;
+  }
+  
+  .menu{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background:gray;
+    margin-top: 0px;
+    top: 0px;
+}
+  
+.links{
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 20px;
+}
+  
+  .links:hover{
+      background-color:aliceblue;
+  }
